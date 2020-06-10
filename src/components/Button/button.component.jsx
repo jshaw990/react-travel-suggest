@@ -4,8 +4,8 @@ import './button.styles.css';
 class Button extends React.Component {
     render() {
         return (
-            <button onClick={this.props.onClick}>
-                Get a Random Tip
+            <button className='button' onClick={this.props.onClick}>
+                Get a Travel Suggestion
             </button>
         )
     }

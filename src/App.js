@@ -29,8 +29,8 @@ class App extends React.Component {
         <div className='content'>
           <div className="header">
             <Header />
-            <Button onClick={ this.handleClick } />
           </div>
+          <Button onClick={ this.handleClick } />
           <div className='content-tip'>
             <Tip index={ this.state.index } />
           </div>

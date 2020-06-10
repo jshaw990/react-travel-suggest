@@ -13,11 +13,12 @@ class Tip extends React.Component {
         const tip = this.displayTravelTip();
 
         return (
-            <div>
-                <h3>{tip.title}</h3>
+            <div className='tip'>
+                <h2>{tip.title}</h2>
                 <p>{tip.city}, {tip.country}</p>
                 <p className='description'>{tip.description}</p>
                 <div className='more'>
+                    <h3>Know Before You Go</h3>
                     <p>{tip.know}</p>
                 </div>
             </div>

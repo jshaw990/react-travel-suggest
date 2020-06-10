@@ -1,0 +1,17 @@
+.header {
+    margin-top: 0;
+    padding-top: 8px;
+    color: #FFFFFF;
+    top: 0;
+}
+
+h1 {
+    font-size: 2.25rem;
+    margin: 15px 0;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+p {
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    margin: 0;
+}
