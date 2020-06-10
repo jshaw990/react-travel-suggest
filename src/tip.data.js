@@ -4,56 +4,56 @@ const tip = [
         description: "",
         country: "",
         continent: "",
-        image: "https://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzhhYzcxYTY3ODVhZWFkYjlhZDFiNmNhMjhlZWY4MDMxODY4MTVjOWMuanBnIl0sWyJwIiwiY29udmVydCIsIiJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA4MSAtYXV0by1vcmllbnQiXSxbInAiLCJ0aHVtYiIsIjM3MngyNDgjIl1d/8ac71a6785aeadb9ad1b6ca28eef803186815c9c.jpg"
+        image: ""
     },
     {
         title: "Rainbow Mountain",
         description: "The peaks in the Ausangate mountain region of the Peruvian Andes are all uncommonly colored, but none are quite so marvelous as Vinicunca, known as Rainbow Mountain. This remote candy-striped mountain is straight out of the pages of Dr. Seuss. Yet for all its striking colors, Rainbow Mountain is notoriously hard to find.",
         country: "Peru",
         continent: "South America",
-        image: "https://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzhhYzcxYTY3ODVhZWFkYjlhZDFiNmNhMjhlZWY4MDMxODY4MTVjOWMuanBnIl0sWyJwIiwiY29udmVydCIsIiJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA4MSAtYXV0by1vcmllbnQiXSxbInAiLCJ0aHVtYiIsIjM3MngyNDgjIl1d/8ac71a6785aeadb9ad1b6ca28eef803186815c9c.jpg"
+        image: "https://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzhhYzcxYTY3ODVhZWFkYjlhZDFiNmNhMjhlZWY4MDMxODY4MTVjOWMuanBnIl0sWyJwIiwidGh1bWIiLCIxMjAweD4iXSxbInAiLCJjb252ZXJ0IiwiLXF1YWxpdHkgODEgLWF1dG8tb3JpZW50Il1d/8ac71a6785aeadb9ad1b6ca28eef803186815c9c.jpg"
     },
     {
         title: "Perito Moreno Glacier",
         description: "If you only visit one glacier in your life, Perito Moreno would be a good one to pick. It towers above the turquoise glacial water of Patagonia’s Los Glaciares National Park, beaming a blinding white and exuding cold blue hues. This stunning mass of ice spans 121 square miles and, unlike most of Earth’s other glaciers, is is still growing.",
         country: "Argentina",
         continent: "South America",
-        image: "https://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzhhYzcxYTY3ODVhZWFkYjlhZDFiNmNhMjhlZWY4MDMxODY4MTVjOWMuanBnIl0sWyJwIiwiY29udmVydCIsIiJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA4MSAtYXV0by1vcmllbnQiXSxbInAiLCJ0aHVtYiIsIjM3MngyNDgjIl1d/8ac71a6785aeadb9ad1b6ca28eef803186815c9c.jpg"
+        image: "https://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzhhYzcxYTY3ODVhZWFkYjlhZDFiNmNhMjhlZWY4MDMxODY4MTVjOWMuanBnIl0sWyJwIiwidGh1bWIiLCIxMjAweD4iXSxbInAiLCJjb252ZXJ0IiwiLXF1YWxpdHkgODEgLWF1dG8tb3JpZW50Il1d/8ac71a6785aeadb9ad1b6ca28eef803186815c9c.jpg"
     },
     {
         title: "Leftover Star Wars Sets",
         description: "",
         country: "Tunisia",
         continent: "Africa",
-        image: "https://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzhhYzcxYTY3ODVhZWFkYjlhZDFiNmNhMjhlZWY4MDMxODY4MTVjOWMuanBnIl0sWyJwIiwiY29udmVydCIsIiJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA4MSAtYXV0by1vcmllbnQiXSxbInAiLCJ0aHVtYiIsIjM3MngyNDgjIl1d/8ac71a6785aeadb9ad1b6ca28eef803186815c9c.jpg"
+        image: "https://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzhhYzcxYTY3ODVhZWFkYjlhZDFiNmNhMjhlZWY4MDMxODY4MTVjOWMuanBnIl0sWyJwIiwidGh1bWIiLCIxMjAweD4iXSxbInAiLCJjb252ZXJ0IiwiLXF1YWxpdHkgODEgLWF1dG8tb3JpZW50Il1d/8ac71a6785aeadb9ad1b6ca28eef803186815c9c.jpg"
     },
     {
         title: "Hitler's Olympic Village",
         description: "",
         country: "Germany",
         continent: "Europe",
-        image: "https://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzhhYzcxYTY3ODVhZWFkYjlhZDFiNmNhMjhlZWY4MDMxODY4MTVjOWMuanBnIl0sWyJwIiwiY29udmVydCIsIiJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA4MSAtYXV0by1vcmllbnQiXSxbInAiLCJ0aHVtYiIsIjM3MngyNDgjIl1d/8ac71a6785aeadb9ad1b6ca28eef803186815c9c.jpg"
+        image: "https://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzhhYzcxYTY3ODVhZWFkYjlhZDFiNmNhMjhlZWY4MDMxODY4MTVjOWMuanBnIl0sWyJwIiwidGh1bWIiLCIxMjAweD4iXSxbInAiLCJjb252ZXJ0IiwiLXF1YWxpdHkgODEgLWF1dG8tb3JpZW50Il1d/8ac71a6785aeadb9ad1b6ca28eef803186815c9c.jpg"
     },
     {
         title: "Discoteca Ayala",
         description: "",
         country: "Cuba",
         continent: "North America",
-        image: "https://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzhhYzcxYTY3ODVhZWFkYjlhZDFiNmNhMjhlZWY4MDMxODY4MTVjOWMuanBnIl0sWyJwIiwiY29udmVydCIsIiJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA4MSAtYXV0by1vcmllbnQiXSxbInAiLCJ0aHVtYiIsIjM3MngyNDgjIl1d/8ac71a6785aeadb9ad1b6ca28eef803186815c9c.jpg"
+        image: "https://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzhhYzcxYTY3ODVhZWFkYjlhZDFiNmNhMjhlZWY4MDMxODY4MTVjOWMuanBnIl0sWyJwIiwidGh1bWIiLCIxMjAweD4iXSxbInAiLCJjb252ZXJ0IiwiLXF1YWxpdHkgODEgLWF1dG8tb3JpZW50Il1d/8ac71a6785aeadb9ad1b6ca28eef803186815c9c.jpg"
     },
     {
         title: "Barack Obama Plaza",
         description: "",
         country: "Ireland",
         continent: "Europe",
-        image: "https://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzhhYzcxYTY3ODVhZWFkYjlhZDFiNmNhMjhlZWY4MDMxODY4MTVjOWMuanBnIl0sWyJwIiwiY29udmVydCIsIiJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA4MSAtYXV0by1vcmllbnQiXSxbInAiLCJ0aHVtYiIsIjM3MngyNDgjIl1d/8ac71a6785aeadb9ad1b6ca28eef803186815c9c.jpg"
+        image: "https://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzhhYzcxYTY3ODVhZWFkYjlhZDFiNmNhMjhlZWY4MDMxODY4MTVjOWMuanBnIl0sWyJwIiwidGh1bWIiLCIxMjAweD4iXSxbInAiLCJjb252ZXJ0IiwiLXF1YWxpdHkgODEgLWF1dG8tb3JpZW50Il1d/8ac71a6785aeadb9ad1b6ca28eef803186815c9c.jpg"
     },
     {
         title: "The Libraries of Chinguetti",
         description: "",
         country: "Mauritania",
         continent: "Ocenia",
-        image: "https://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzhhYzcxYTY3ODVhZWFkYjlhZDFiNmNhMjhlZWY4MDMxODY4MTVjOWMuanBnIl0sWyJwIiwiY29udmVydCIsIiJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA4MSAtYXV0by1vcmllbnQiXSxbInAiLCJ0aHVtYiIsIjM3MngyNDgjIl1d/8ac71a6785aeadb9ad1b6ca28eef803186815c9c.jpg"
+        image: "https://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvcGxhY2VfaW1hZ2VzLzhhYzcxYTY3ODVhZWFkYjlhZDFiNmNhMjhlZWY4MDMxODY4MTVjOWMuanBnIl0sWyJwIiwidGh1bWIiLCIxMjAweD4iXSxbInAiLCJjb252ZXJ0IiwiLXF1YWxpdHkgODEgLWF1dG8tb3JpZW50Il1d/8ac71a6785aeadb9ad1b6ca28eef803186815c9c.jpg"
     },
     {
         title: "Forbes Pigment Collection",

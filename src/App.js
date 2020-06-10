@@ -22,12 +22,20 @@ class App extends React.Component {
 
   render() {
     return (
-      <div style={{backgroundImage: this.state.background}}>
-        <Header />
-        <Background index={ this.state.index } />
-        <Button onClick={ this.handleClick } />
-        <Tip index={ this.state.index } />
-      </div> 
+      <div className='container'>
+        <div className='background'>
+          <Background index={ this.state.index } />
+        </div>
+        <div className='content'>
+          <div className="header">
+            <Header />
+            <Button onClick={ this.handleClick } />
+          </div>
+          <div className='content-tip'>
+            <Tip index={ this.state.index } />
+          </div>
+        </div> 
+      </div>
     )
   }
 }

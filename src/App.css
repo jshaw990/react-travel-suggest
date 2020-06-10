@@ -1,0 +1,18 @@
+.background {
+    position: absolute;
+    width: 100vw;
+    height: auto;
+}
+
+.content {
+    position: absolute;
+    text-align: center;
+    width: 70%;
+    margin: 10px auto;
+    padding: 20px 30px;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 50px;
+    color: #FFFFFF;
+}
