@@ -3,8 +3,8 @@ import './header.styles.css';
 
 const Header = () => (
     <div className='header'>
-        <h1 className='title'>Travel Idea Suggestor</h1>
-        <p>Press the button below to receive a random travel suggestion!</p>
+        <h1 className='title'>Obscure Travel Suggestor</h1>
+        <p>Press the button below to receive a random, obscure travel suggestion!</p>
     </div>
 );
 

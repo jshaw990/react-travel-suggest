@@ -15,8 +15,11 @@ class Tip extends React.Component {
         return (
             <div>
                 <h3>{tip.title}</h3>
-                <p>{tip.country}</p>
-                <p>{tip.description}</p>
+                <p>{tip.city}, {tip.country}</p>
+                <p className='description'>{tip.description}</p>
+                <div className='more'>
+                    <p>{tip.know}</p>
+                </div>
             </div>
         )
     }
