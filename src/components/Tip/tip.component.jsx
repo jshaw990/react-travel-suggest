@@ -11,18 +11,27 @@ class Tip extends React.Component {
 
     render() {
         const tip = this.displayTravelTip();
-
-        return (
-            <div className='tip'>
-                <h2>{tip.title}</h2>
-                <p>{tip.city}, {tip.country}</p>
-                <p className='description'>{tip.description}</p>
-                <div className='more'>
-                    <h3>Know Before You Go</h3>
-                    <p>{tip.know}</p>
+        if(tip.know.length > 0) {
+            return (
+                <div className='tip'>
+                    <h2>{tip.title}</h2>
+                    <p>{tip.city}, {tip.country}</p>
+                    <p className='description'>{tip.description}</p>
+                    <div className='more'>
+                        <h3>Know Before You Go</h3>
+                        <p>{tip.know}</p>
+                    </div>
                 </div>
-            </div>
-        )
+            )
+        } else {
+            return (
+                <div className='tip'>
+                    <h2>{tip.title}</h2>
+                    <p>{tip.city}, {tip.country}</p>
+                    <p className='description'>{tip.description}</p>
+                </div>
+            )
+        }
     }
 }
 
