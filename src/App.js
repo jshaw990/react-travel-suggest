@@ -21,22 +21,38 @@ class App extends React.Component {
   }
 
   render() {
-    return (
-      <div className='container'>
-        <div className='background'>
-          <Background index={ this.state.index } />
+    if(this.state.index === 0) {
+      return (
+        <div className='container'>
+          <div className='background'>
+            <Background index={ this.state.index } />
+          </div>
+          <div className='content'>
+            <div className="header">
+              <Header />
+            </div>
+            <Button onClick={ this.handleClick } />
+          </div>
         </div>
-        <div className='content'>
-          <div className="header">
-            <Header />
+      )
+    } else {
+      return (
+        <div className='container'>
+          <div className='background'>
+            <Background index={ this.state.index } />
           </div>
-          <Button onClick={ this.handleClick } />
-          <div className='content-tip'>
-            <Tip index={ this.state.index } />
+          <div className='content'>
+            <div className="header">
+              <Header />
+            </div>
+            <Button onClick={ this.handleClick } />
+            <div className='content-tip'>
+              <Tip index={ this.state.index } />
+            </div> 
           </div>
-        </div> 
-      </div>
-    )
+        </div>
+      )
+    }
   }
 }
 
